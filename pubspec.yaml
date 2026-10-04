@@ -1,0 +1,30 @@
+name: lizza
+description: LIZZA - Personal AI Companion of Aniket Sarker
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.6
+  speech_to_text: ^7.0.0
+  just_audio: ^0.9.40
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/character/
+    - assets/voice/
+    - assets/data/
